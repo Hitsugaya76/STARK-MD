@@ -7,8 +7,8 @@ RUN apt-get update && \
   webp && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
-RUN git clone https://github.com/Hitsugaya76/Stark-md /root/Zokou_BOt
-WORKDIR /root/Zokou_Bot/
+RUN git clone https://github.com/Hitsugaya76/Stark-md /root/SuhailTech_BOt
+WORKDIR /root/SuhailTech_Bot/
 
 
 COPY package.json .
